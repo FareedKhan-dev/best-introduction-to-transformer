@@ -220,9 +220,9 @@ Take a look at our transformer architecture. What we have covered so far and wha
 
 We won’t be calculating the entire decoder because most of its portion contains similar calculations to what we have already done in the encoder. Calculating the decoder in detail would only make the blog lengthy due to repetitive steps. Instead, we only need to focus on the calculations of the input and output of the decoder.
 
-When training, there are two inputs to the decoder. One is from the encoder, where the output matrix of the last add and norm layer serves as the **query** and **key** for the second multi-head attention layer in the decoder part. Below is the visualization of it (from [**batool haider](https://www.youtube.com/watch?v=gJ9kaJsE78k&t=596s)**):
+When training, there are two inputs to the decoder. One is from the encoder, where the output matrix of the last add and norm layer serves as the **query** and **key** for the second multi-head attention layer in the decoder part. Below is the visualization of it (from [batool haider](https://www.youtube.com/watch?v=gJ9kaJsE78k&t=596s)**):
 
-![Visualization is from [Batool Haider](https://www.youtube.com/watch?v=gJ9kaJsE78k&t=596s)**](https://cdn-images-1.medium.com/max/2000/0*1_Zhg960nRqy9MIF.gif)
+![Visualization is from [Batool Haider](https://www.youtube.com/watch?v=gJ9kaJsE78k&t=596s)](https://cdn-images-1.medium.com/max/2000/0*1_Zhg960nRqy9MIF.gif)
 
 While the value matrix comes from the decoder after the first **add and norm **step.
 
@@ -314,6 +314,6 @@ In this blog, I have shown you a very basic way of how transformers mathematical
 
 In the future, I will be posting more blogs on transformers and LLM as my core focus is on NLP. More importantly, if you want to build your own million-parameter LLM from scratch using Python, I have written a blog on it which has received a lot of appreciation on Medium. You can read it here:
 [**Building a Million-Parameter LLM from Scratch Using Python**
-*A Step-by-Step Guide to Replicating LLaMA Architecture*levelup.gitconnected.com](https://levelup.gitconnected.com/building-a-million-parameter-llm-from-scratch-using-python-f612398f06c2)
+*A Step-by-Step Guide to Replicating LLaMA Architecture*](https://levelup.gitconnected.com/building-a-million-parameter-llm-from-scratch-using-python-f612398f06c2)
 
 **Have a great time reading!**
