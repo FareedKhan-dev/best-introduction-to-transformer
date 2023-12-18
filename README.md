@@ -3,6 +3,8 @@
 
 ## Understanding Transformers from Start to End — A Step-by-Step Math Example
 
+[**Read it on Medium**](https://medium.com/@fareedkhandev/understanding-transformers-from-start-to-end-a-step-by-step-math-example-16d4e64e6eb1)
+
 I have already written a detailed blog on how transformers work using a very small sample of the dataset, which will be my best blog ever because it has elevated my profile and given me the motivation to write more. However, that blog is incomplete as it only covers **20% of the transformer architecture** and contains numerous calculation errors, as pointed out by readers. After a considerable amount of time has passed since that blog, I will be revisiting the topic in this new blog.
 
 My previous blog on transformer architecture (**covers only 20%**):
